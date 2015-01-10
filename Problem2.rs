@@ -10,5 +10,5 @@ fn main() {
         if v[a] % 2 == 0 { x += v[a]; }
         a += 1;
     } 
-    println!("{}, {}", x, v);
+    println!("{:?}, {:?}", x, v);
 }

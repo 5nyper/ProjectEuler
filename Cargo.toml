@@ -16,9 +16,9 @@ path="Problem2.rs"
 name="problem3"
 path="Problem3.rs"
 
-[[bin]]
-name="problem4"
-path="Problem4.rs"
+# [[bin]]
+# name="problem4"
+# path="Problem4.rs"
 
 [[bin]]
 name="problem5"
@@ -32,13 +32,13 @@ path="Problem6.rs"
 name="problem7"
 path="Problem7.rs"
 
-[[bin]]
-name="problem8"
-path="Problem8.rs"
+# [[bin]]
+# name="problem8"
+# path="Problem8.rs"
 
-[[bin]]
-name="problem9"
-path="Problem9.rs"
+# [[bin]]
+# name="problem9"
+# path="Problem9.rs"
 
 [[bin]]
 name="problem10"
