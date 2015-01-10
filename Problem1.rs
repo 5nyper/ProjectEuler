@@ -7,4 +7,5 @@ fn main() {
         a += 1;
     } 
     println!("{:?}, {:?}", x, v);
+    println!("{}, {:?}", x, v);
 }
