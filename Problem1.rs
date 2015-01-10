@@ -6,5 +6,5 @@ fn main() {
         if v[a] % 5 == 0 || v[a] % 3 == 0 { x += v[a]; }
         a += 1;
     } 
-    println!("{}, {}", x, v);
+    println!("{}, {:?}", x, v);
 }
