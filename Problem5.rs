@@ -13,23 +13,11 @@ fn main() {
 //BLAZING FAST CODE!
 const BOUND: u64 = 20;
 fn main() {
-    let factors = (2..(BOUND+1)).collect::<Vec<_>>();
-    let mut step = 2;
+    let mut value = 1;
 
-    for &f in factors.iter() {
-        step = lcm(step, f);
+    for f in (2..BOUND+1) {
+        value = lcm(value, f);
     }
-
-    let mut value = step;
-
-    loop {
-        if factors.iter().all(|&f| value % f == 0) {
-            break;
-        }
-
-        value += step;
-    }
-
     println!("{}", value);
 }
 
@@ -43,6 +31,7 @@ fn gcd(a: u64, b: u64) -> u64 {
     if b == 0 { a }
     else { gcd(b, a % b) }
 }
+
 //Idiomatic code
 fn main(){
     let mut i = 1i32;
