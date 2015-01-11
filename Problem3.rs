@@ -1,5 +1,5 @@
 fn main(){
-  let (mut _i,mut _j,mut _k) = (0i, 0i, 0i);
+  let (mut _i,mut _j,mut _k) = (0is, 0is, 0is);
   let num = 600851475143f64;
   while _i<=num as isize{
       _k=0;

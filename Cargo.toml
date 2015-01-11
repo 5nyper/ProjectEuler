@@ -1,0 +1,45 @@
+[package]
+
+name = "project_euler"
+version = "0.0.1"
+authors = ["Ap0ph1s"]
+
+[[bin]]
+name="problem1"
+path="Problem1.rs"
+
+[[bin]]
+name="problem2"
+path="Problem2.rs"
+
+[[bin]]
+name="problem3"
+path="Problem3.rs"
+
+# [[bin]]
+# name="problem4"
+# path="Problem4.rs"
+
+[[bin]]
+name="problem5"
+path="Problem5.rs"
+
+[[bin]]
+name="problem6"
+path="Problem6.rs"
+
+[[bin]]
+name="problem7"
+path="Problem7.rs"
+
+# [[bin]]
+# name="problem8"
+# path="Problem8.rs"
+
+# [[bin]]
+# name="problem9"
+# path="Problem9.rs"
+
+[[bin]]
+name="problem10"
+path="Problem10.rs"
