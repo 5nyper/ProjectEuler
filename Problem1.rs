@@ -1,16 +1,13 @@
 //Idiomatic Code
+#![feature(slicing_syntax)]
+
 use std::iter::AdditiveIterator;
+
 fn main() {
-    println!("{}", (0u32..1000).filter(|&x| (x % 3 == 0) || (x % 5 == 0)).sum());
-}
-fn main() {
-    let mut x = 0is;
-    let mut a = 0us;
-    let v: Vec<isize> = range(0is, 1001is).collect();
-    for _i in [0is..v.len() as isize].iter() {
-        if v[a] % 5 == 0 || v[a] % 3 == 0 { x += v[a]; }
-        a += 1;
-    } 
-    println!("{:?}, {:?}", x, v);
-    println!("{}, {:?}", x, v);
+    let lastnum = 1000;
+    // +1 since we specify the index one beyond the end in range notation
+    let range = 0..(lastnum + 1);
+    // filter creates an iterator that leaves out stuff divisible by 3 or 5
+    let v = range.filter(|&x| x%5 == 0 || x%3 == 0);
+    println!("{}", v.sum());
 }
