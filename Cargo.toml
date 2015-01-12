@@ -43,3 +43,7 @@ path="Problem7.rs"
 [[bin]]
 name="problem10"
 path="Problem10.rs"
+
+[dependencies]
+# big num / arbitrary precision library
+num = "*"
