@@ -15,7 +15,7 @@ fn fib(n: usize) -> usize {
 }
  
 fn main() {
-println!("fib(10000) = {}", fib(4781));
+println!("fib(10000) = {}", fib(4782));
 }
 // oli-obk's Code
 extern crate num;
