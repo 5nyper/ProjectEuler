@@ -22,5 +22,5 @@ fn main() {
         e+=1;
    }
    let mut it = vec.iter().map(|&x| x);
-  println!("{:?}", it.sum()); 
+  println!("{}", it.sum()); 
 }
