@@ -8,7 +8,7 @@ fn main() {
         let x =
             num[num.len() - 1] - num[num.len() - 2] + 1 +
                 num[num.len() -
-                        1]; //extremely clever way of listing triangle numbers(not to be cocky :))
+                        1];
         num.push(x);
     }
     println!("Calculating...");
